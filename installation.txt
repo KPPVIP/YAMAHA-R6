@@ -1,0 +1,23 @@
+Yamaha YZF R6 2017
+Model : YAMAHA MOTOR Europe
+
+Installation:
+1. Extract "r6" folder into dlc folder
+C:\Grand Theft Auto V\update\x64\dlcpacks
+
+2. Use OpenIV find dlclist.xml & extratitleupdatedata.meta
+C:\Grand Theft Auto V\update\update.rpf\common\data
+
+3. open dlclist.xml & extratitleupdatedata.meta using notepad then add this line
+		dlclist.xml :
+				<item>dlcpacks:\r6\</item>
+
+		extratitleupdatedata.meta :
+				<Item type="SExtraTitleUpdateMount">
+					<deviceName>dlc_r6:/</deviceName>
+					<path>update:/dlc_patch/r6/</path>
+				</Item>
+Save and use OpenIV to replace the files
+
+Use Simple trainer and spawn the vehicle by model name "r6"
+
